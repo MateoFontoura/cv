@@ -1,0 +1,26 @@
+.principal {
+  color: #98CE54; }
+
+.negro {
+  color: black; }
+
+.blanco {
+  color: white; }
+
+.gris {
+  color: gray; }
+
+.chico {
+  width: 120px;
+  height: 120px; }
+
+.centrado {
+  display: flex;
+  justify-content: center; }
+
+.final {
+  display: flex;
+  justify-content: end; }
+
+h1 {
+  color: #98CE54; }

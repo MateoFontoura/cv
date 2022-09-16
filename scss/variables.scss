@@ -1,0 +1,25 @@
+//$variable:valor; 
+//@mixin variable($variable){
+//	width: $width;
+//} @include variable (100%)
+
+
+@mixin medidas($width, $height){
+	width: $width;
+	height: $height;
+}
+
+
+$colores:(
+	principal:#98CE54,
+	negro:black,
+	blanco:white,
+	gris:gray
+);
+
+
+@each $clave, $valor in $colores{
+	.#{$clave}{
+	color: $valor;
+	}
+}
