@@ -1,14 +1,14 @@
 .chico{
-	@include medidas (120px,120px);
+	@include medidas (130px,130px);
 }
 .centrado{
 	display: flex;
 	justify-content: center;
-}
-.final{
-	display: flex;
-	justify-content: end;
-}
+}	
 h1{
 	color: map-get($colores, principal);
+}
+.bgImg{
+	background-image: url(../assets/fondo.jpg);
+	background-position:center;
 }
