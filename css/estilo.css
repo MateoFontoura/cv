@@ -28,6 +28,9 @@ h1 {
 .textDecorado {
   text-decoration: none; }
 
+.card {
+  width: 12rem; }
+
 .final {
   display: flex;
   justify-content: end;
